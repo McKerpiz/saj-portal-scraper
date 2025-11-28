@@ -1,0 +1,42 @@
+name: "SAJ-Portal-Scraper"
+description: "My SAJ-Portal-Scraper Add-on"
+version: "1.0.018"
+slug: "saj-portal-scraper"
+boot: auto
+homeassistant_api: true
+hassio_api: true
+host_network: true
+init: false # Add-on runs as a service
+arch:
+  - aarch64
+  - amd64
+
+startup: services
+options:
+  saj_username: ""
+  saj_password: ""
+  saj_url: "https://eop.saj-electric.com"
+  scan_time: 20  #sekunden
+  scan_interval: 300 # sek
+  mqtt_broker: "localhost"
+  mqtt_port: 1883
+  mqtt_username: "mqtt_user"
+  mqtt_password: "mqtt_password"
+  mqtt_topic: "saj/solar/data"
+  mqtt_device_name: "Z SAJ Solar Wechselrichter"
+schema:
+  saj_username: str
+  saj_password: password
+  saj_url: list(https://iop.saj-electric.com|https://eop.saj-electric.com|https://op.saj-electric.cn)
+  scan_time: int
+  scan_interval: int
+  mqtt_broker: str
+  mqtt_port: int
+  mqtt_username: str
+  mqtt_password: password
+  mqtt_topic: str
+  mqtt_device_name: str
+  
+map:
+  - addon_config:rw
+  - all_addon_configs:rw
