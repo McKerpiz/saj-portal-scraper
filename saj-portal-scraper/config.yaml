@@ -1,6 +1,6 @@
 name: "SAJ-Portal-Scraper"
-description: "My SAJ-Portal-Scraper Add-on"
-version: "1.0.018"
+description: "SAJ-Portal-Scraper Add-on"
+version: "1.0.001"
 slug: "saj-portal-scraper"
 boot: auto
 homeassistant_api: true
@@ -23,7 +23,7 @@ options:
   mqtt_username: "mqtt_user"
   mqtt_password: "mqtt_password"
   mqtt_topic: "saj/solar/data"
-  mqtt_device_name: "Z SAJ Solar Wechselrichter"
+  mqtt_device_name: "SAJ Solar Inverter"
 schema:
   saj_username: str
   saj_password: password
