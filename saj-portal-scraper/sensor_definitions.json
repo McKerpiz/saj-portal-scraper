@@ -1,0 +1,142 @@
+{
+    "batEnergyPercent": {
+        "name": "Battery Level",
+        "device_class": "battery",
+        "unit_of_measurement": "%",
+        "state_class": "measurement"
+    },
+    "batPower": {
+        "name": "Battery Power",
+        "device_class": "power",
+        "unit_of_measurement": "W",
+        "state_class": "measurement"
+    },
+    "batteryDirection": {
+        "name": "Battery Direction",
+        "state_class": "measurement"
+    },
+    "batteryStatus": {
+        "name": "Battery Status",
+        "state_class": "measurement"
+    },
+    "batteryToGridDirection": {
+        "name": "Battery to Grid Direction",
+        "state_class": "measurement"
+    },
+    "batteryToLoadDirection": {
+        "name": "Battery to Load Direction", 
+        "state_class": "measurement"
+    },
+    "chargePower": {
+        "name": "Charge Power",
+        "device_class": "power",
+        "unit_of_measurement": "W",
+        "state_class": "measurement"
+    },
+    "chargeStatus": {
+        "name": "Charge Status",
+        "state_class": "measurement"
+    },
+    "chargerDirection": {
+        "name": "Charger Direction",
+        "state_class": "measurement"
+    },
+    "genDirection": {
+        "name": "Generator Direction",
+        "state_class": "measurement"
+    },
+    "genPowerwatt": {
+        "name": "Generator Power",
+        "device_class": "power",
+        "unit_of_measurement": "W",
+        "state_class": "measurement"
+    },
+    "genStatus": {
+        "name": "Generator Status",
+        "state_class": "measurement"
+    },
+    "gridDirection": {
+        "name": "Grid Direction",
+        "state_class": "measurement"
+    },
+    "gridStatus": {
+        "name": "Grid Status",
+        "state_class": "measurement"
+    },
+    "gridToBatteryDirection": {
+        "name": "Grid to Battery Direction",
+        "state_class": "measurement"
+    },
+    "gridToLoadDirection": {
+        "name": "Grid to Load Direction",
+        "state_class": "measurement"
+    },
+    "outputDirection": {
+        "name": "Output Direction",
+        "state_class": "measurement"
+    },
+    "pvDirection": {
+        "name": "PV Direction",
+        "state_class": "measurement"
+    },
+    "pvEfficiency": {
+        "name": "PV Efficiency",
+        "device_class": "power_factor",
+        "unit_of_measurement": "%",
+        "state_class": "measurement"
+    },
+    "pvToBatteryDirection": {
+        "name": "PV to Battery Direction",
+        "state_class": "measurement"
+    },
+    "pvToGridDirection": {
+        "name": "PV to Grid Direction",
+        "state_class": "measurement"
+    },
+    "pvToLoadDirection": {
+        "name": "PV to Load Direction",
+        "state_class": "measurement"
+    },
+    "runningState": {
+        "name": "Running State",
+        "state_class": "measurement"
+    },
+    "solarPower": {
+        "name": "Solar Power",
+        "device_class": "power",
+        "unit_of_measurement": "W",
+        "state_class": "measurement"
+    },
+    "sysGridPowerwatt": {
+        "name": "Grid Power",
+        "device_class": "power",
+        "unit_of_measurement": "W",
+        "state_class": "measurement"
+    },
+    "systemPower": {
+        "name": "System Power",
+        "device_class": "power",
+        "unit_of_measurement": "W", 
+        "state_class": "measurement"
+    },
+    "totalLoadPowerwatt": {
+        "name": "Load Power",
+        "device_class": "power",
+        "unit_of_measurement": "W",
+        "state_class": "measurement"
+    },
+    "totalPvPower": {
+        "name": "Total PV Power",
+        "device_class": "power",
+        "unit_of_measurement": "W",
+        "state_class": "measurement"
+    },
+    "errCode": {
+        "name": "Error Code",
+        "state_class": "measurement"
+    },
+    "errMsg": {
+        "name": "Error Message",
+        "state_class": "measurement"
+    }
+}
