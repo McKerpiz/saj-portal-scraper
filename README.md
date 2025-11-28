@@ -1,5 +1,7 @@
 # SAJ Portal Scraper Add-on for Home Assistant
 
+> **Disclaimer:** I'm not a developer — this is my first Home Assistant add-on and also my first GitHub repository. I built this project to solve my own problem and decided to share it in case it helps others as well.
+
 This Home Assistant add-on enables automated retrieval of live data from the **SAJ Solar Portal** using **Playwright**, and publishes the filtered values via **MQTT**.
 
 ---
@@ -50,10 +52,24 @@ Only when this request occurs inside the portal, the data is collected, filtered
 
 ## 📦 Installation
 
-1. Add the repository in Home Assistant under **Add-on Store → Repositories**
-2. Install the add-on
-3. Adjust the configuration
-4. Start the add-on
+### Adding the Repository
+
+1. Open your Home Assistant UI.
+2. Navigate to **Settings → Add-ons → Add-on Store**.
+3. In the top-right corner, open the **⋮ menu** and select **Repositories**.
+4. Add the GitHub repository URL:
+
+   ```
+   https://github.com/4th3m0s/saj_portal_scraper
+   ```
+5. Confirm and close the dialog.
+
+### Installing the Add-on
+
+1. Refresh the Add-on Store page (a hard refresh like **Ctrl+Shift+R** / **Cmd+Shift+R** may help).
+2. You should now see **SAJ Portal Scraper** listed under your added repositories.
+3. Open the add-on page and click **Install**.
+4. After installation, adjust its configuration as needed and start the add-on.
 
 ---
 
